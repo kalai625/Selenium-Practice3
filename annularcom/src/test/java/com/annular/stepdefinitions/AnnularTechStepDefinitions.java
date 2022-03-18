@@ -29,16 +29,16 @@ public class AnnularTechStepDefinitions {
 		homePage = new HomePage(itautomatnDriver);	
 	}
 	
-	
-	
 	@Then("User is in annulartechnology home page")
 	public void isAnnularTechnologyHomePageDisplayed(){
 		assertThat(homePage.annulartechLogo().isDisplayed());
+		System.out.println("homePage is displayed");
 	}
 	
 	@And("click contact in home page")
 	public void clkContact(){
 		homePage.contactUs().click();
+		
 	}
 	
 	@And("enter name {string}")
