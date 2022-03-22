@@ -19,8 +19,6 @@ public class A01_ReverseString
 	    	    System.out.print(ch[i]+" ");
 	    	  }
 	    
-	      
-
 	}
 
 }
